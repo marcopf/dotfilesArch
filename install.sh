@@ -1,7 +1,7 @@
 sudo pacman -Syu
 yay -Syu
 
-sudo pacman -S --noconfirm ttf-jetbrains-mono-nerd vim base-devel hyprland zsh brightnessctl alacritty neovim hyprpaper bluez blueman nodejs
+sudo pacman -S --noconfirm ttf-jetbrains-mono-nerd vim base-devel hyprland zsh brightnessctl alacritty neovim hyprpaper bluez blueman nodejs ttf-fira-code
 
 sudo npm i -g @angular/cli
 sudo npm i -g sass
@@ -29,4 +29,4 @@ code --install-extension ecmel.vscode-html-css
 code --install-extension skyran.js-jsx-snippets
 code --install-extension PKief.material-icon-theme
 code --install-extension tomwhite007.rename-angular-component
-
+cp settings.json ~/.config/Code/User/

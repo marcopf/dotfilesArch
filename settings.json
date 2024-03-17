@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'JetBrainsMono nerd font', 'monospace', monospace",
+    "workbench.settings.applyToAllProfiles": [
+
+    ],
+    "window.menuBarVisibility": "toggle"
+}
