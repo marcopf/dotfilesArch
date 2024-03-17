@@ -1,7 +1,10 @@
 sudo pacman -Syu
 yay -Syu
 
-sudo pacman -S --noconfirm ttf-jetbrains-mono-nerd vim base-devel hyprland zsh brightnessctl alacritty neovim hyprpaper
+sudo pacman -S --noconfirm ttf-jetbrains-mono-nerd vim base-devel hyprland zsh brightnessctl alacritty neovim hyprpaper bluez blueman
+
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
 
 cp hyprland.conf ~/.config/hypr/
 cp ./.alacritty.toml ~/
