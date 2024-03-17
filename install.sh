@@ -1,9 +1,11 @@
 sudo pacman -Syu
 yay -Syu
 
-sudo pacman -S --noconfirm ttf-jetbrains-mono vim base-devel hyprland zsh brightnessctl alacritty neovim
+sudo pacman -S --noconfirm ttf-jetbrains-mono-nerd vim base-devel hyprland zsh brightnessctl alacritty neovim hyprpaper
+
 cp hyprland.conf ~/.config/hypr/
 cp ./.alacritty.toml ~/
+cp myBack.jpg ~/Immagini/
 yay -S visual-studio-code-bin
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
